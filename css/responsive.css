@@ -800,7 +800,7 @@
   color: #303030;
 }
 /* product  */
-#accordion li {
+.Accordion li {
   display: block;
   font-size: 12px;
   padding: 8px 20px;
@@ -812,4 +812,12 @@
 .btn:hover {
   text-decoration: none;
 }
- 
+/* mobile navbar    */
+@media screen and (max-width: 768px) {
+  .Accordion li {
+    padding: 20px 0px;
+  }
+  .menu-btn {
+    padding: 8px 0px;
+  }
+}
