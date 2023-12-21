@@ -861,20 +861,88 @@
   color: #0bb4c6b0
 } */
 /* crud form */
-.create-section{
-   min-height: 100vh;
+.create-section {
+  min-height: 100vh;
 }
-.create-section img{
-  
-max-width: 100%;
- 
+.create-section img {
+  max-width: 100%;
 }
- .create{
+.create {
   border: 2px solid #e8e8e8;
   padding: 1em;
   border-radius: 10px;
-   
 }
 .create .form-label {
   margin-bottom: 0;
+}
+.header-middle-area {
+  background-color: #0a526b;
+}
+.slider-1-title-1 span {
+  color: #0a526b !important;
+}
+.find-home-area::before {
+  background-color: rgba(38, 159, 199, 0.5) !important;
+}
+.call-to-bg {
+  background-color: #0a526b;
+}
+.find-home-item .btn-block {
+  background-color: #0a526b !important;
+  border: 1px solid #fff !important;
+  transition: 0.3s all ease;
+}
+.find-home-item .btn-block:hover {
+  background-color: rgba(38, 159, 199, 0.5) !important;
+  color: #fff;
+}
+.ui-slider-range.ui-widget-header.ui-corner-all {
+  color: #0a526b !important;
+}
+.call-to-bg:after {
+  background-color: rgba(10, 82, 107, 0.8);
+}
+
+.call-to-bg::before {
+  background-color: #0a526b !important;
+}
+.ui-slider .ui-slider-range {
+  background-color: #0b465c !important;
+}
+/* .nivo-directionNav a:hover,
+.nivo-controlNav a.active,
+.slider-button:hover,
+.mark,
+mark,
+#scrollUp:hover,
+.bg-theme,
+.call-to-bg::before,
+.ui-slider .ui-slider-range,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.flat-link > a:hover,
+.button-1,
+.pagination-list > li a:hover,
+.submit-btn-1,
+.widget-search button:hover,
+.blog-details-title-time::before,
+.blog-quote::before,
+.line-bottom::before,
+.go-home:hover,
+.dots-right-btm .slick-dots li.slick-active button,
+.subscribe button,
+.footer-contact button:hover,
+.blog-item:hover .post-title-time::before,
+.for-sale {
+  background-color: rgba(10, 82, 107, 0.8) !important;
+} */
+.flat-desc {
+  background-color: #0a526b;
+}
+.flat-title-price .price {
+  color: #0a526b;
+}
+.more-details:hover {
+  background-color: #0a526b !important ;
 }

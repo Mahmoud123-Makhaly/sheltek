@@ -1,0 +1,48 @@
+.category .category-img {
+  border: 1px solid #e8e8e8;
+  padding: 10px 0;
+  transition: 0.3s all ease;
+}
+.category .category-img:hover {
+  border-color: orange;
+}
+.category .item-content {
+  position: absolute;
+
+  color: #222;
+  font-weight: bold;
+  margin: 1em 0;
+}
+.category-item h3 {
+  position: relative;
+}
+.category-item h3:after {
+  position: relative;
+  content: "";
+  width: 100px;
+  height: 3px;
+  display: block;
+  background: orange;
+  position: absolute;
+  top: 2em;
+  transition: 0.3s all ease;
+}
+
+.category .category-item:hover ::after {
+  width: 150px;
+  transition: 0.3s all ease;
+}
+.category .category-item:hover h3 {
+  color: orange;
+}
+.category .social {
+  position: fixed;
+  bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  right: 10px;
+}
+.category .social img {
+  width: 40px;
+}

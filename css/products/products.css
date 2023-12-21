@@ -5,7 +5,7 @@
 .carousel-indicators button {
   width: 60px !important;
   height: 60px !important;
-  background-image:url(../../images/products/pro1.webp);
+  background-image: url(../../images/products/pro1.webp);
   background-size: cover;
   background-position: center center;
 }
@@ -69,7 +69,17 @@
   justify-content: center;
   align-items: center;
 }
-
+.social {
+  position: fixed;
+  bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  right: 10px;
+}
+.social img {
+  width: 40px;
+}
 /* @media (max-width: 760px) {
   .swiper-button-next {
     right: 20px;
